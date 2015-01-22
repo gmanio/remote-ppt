@@ -1,0 +1,5 @@
+#header{text-align:center}
+#header h1{font-size:14px}
+#container{text-align:center}
+#prev{display:inline-block;width:100px;height:100px;line-height:100px;text-align:center;font-family:Helvetica,sans-serif;border:1px solid #1fbc02;border-radius:7px}
+#next{display:inline-block;width:100px;height:100px;line-height:100px;text-align:center;font-family:Helvetica,sans-serif;border:1px solid #1fbc02;border-radius:7px}

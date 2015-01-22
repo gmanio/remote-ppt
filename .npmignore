@@ -1,0 +1,9 @@
+.DS_Store
+.git*
+.idea
+Makefile
+node_modules/
+docs/
+examples/
+support/
+test/

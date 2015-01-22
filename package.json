@@ -1,0 +1,35 @@
+{
+  "name": "remote-ppt-server",
+  "version": "0.0.1",
+  "description": "remote-ppt-server",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gmhooray/remote-ppt-server.git"
+  },
+  "author": "gman <gman.park@nhn.com>",
+  "bugs": {
+    "url": "https://github.com/gmhooray/remote-ppt-server/issues"
+  },
+  "homepage": "https://github.com/gmhooray/remote-ppt-server",
+  "dependencies": {
+    "express": "^4.11.1",
+    "socket.io": "^1.3.2"
+  },
+  "bin": {
+    "remote-ppt-server": "index.js"
+  },
+  "files": [
+    "LICENSE-UIT",
+    "Readme.md",
+    "index.js",
+    "lib/",
+    "client/"
+  ],
+  "keywords": [
+    "remote",
+    "ppt",
+    "controller"
+  ],
+  "license": "MIT"
+}
