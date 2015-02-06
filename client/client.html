@@ -22,7 +22,7 @@
 <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script src="/socket.io/socket.io.js"></script>
 <script>
-	var socket = io($(location).attr('host'));
+	var socket = io();
 
 	var gmanController = function(){this.$init.apply(this,arguments)};
 
@@ -46,8 +46,6 @@
 			$.ajax({type: 'post', url: key});
 		}
 	}
-
-
 
 	$(document).ready(function () {
 		new gmanController(socket);

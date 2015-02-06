@@ -1,4 +1,4 @@
-NodeJS remote controller application for PPT
+mobile remote controller application for Powerpoint
 =======
 
 Module for Windows or Mac powerpoint with your NodeJS application. Tested with iphone5.
@@ -11,13 +11,18 @@ npm install remote-ppt-server -g
 
 Usage
 -----
-1. run remote server on command line.
+1. prepare your mobile device.
+
+2. run remote server on command line.
 ```
  $> remote-ppt-server
 ```
-2. open web browser on your mobile phone.
 
-3. connect to the server.
+2. set your mobile device SSID. ( It must be same with your target PC )
+
+3. open web browser on your mobile phone.
+
+4. connect to the server.
 
 License
 -----

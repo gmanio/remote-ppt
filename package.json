@@ -1,7 +1,7 @@
 {
-  "name": "remote-ppt-server",
+  "name": "remote-ppt",
   "version": "0.0.1",
-  "description": "remote-ppt-server",
+  "description": "remote-ppt",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -29,6 +29,7 @@
   "keywords": [
     "remote",
     "ppt",
+    "server",
     "controller"
   ],
   "license": "MIT"
