@@ -18,11 +18,11 @@ Usage
  $> remote-ppt
 ```
 
-2. set your mobile device SSID. ( It must be same with your target PC )
+3. set your mobile device SSID. ( It must be same with your target PC )
 
-3. open web browser on your mobile phone.
+4. open web browser on your mobile phone.
 
-4. connect to the server.
+5. connect to the server.
 
 License
 -----

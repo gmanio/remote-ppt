@@ -1,6 +1,6 @@
 {
   "name": "remote-ppt",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "remote-ppt",
   "main": "index.js",
   "repository": {
@@ -9,9 +9,9 @@
   },
   "author": "gman <gman.park@nhn.com>",
   "bugs": {
-    "url": "https://github.com/gmhooray/remote-ppt-server/issues"
+    "url": "https://github.com/gmanio/remote-ppt/issues"
   },
-  "homepage": "https://github.com/gmhooray/remote-ppt-server",
+  "homepage": "http://gman.io",
   "dependencies": {
     "express": "^4.11.1",
     "socket.io": "^1.3.2"
