@@ -11,18 +11,20 @@ npm install remote-ppt -g
 
 Usage
 -----
-1. prepare your mobile device.
+*   prepare your mobile device.
 
-2. run remote server on command line.
-```
- $> remote-ppt
-```
+*   run remote server on command line.
 
-3. set your mobile device SSID. ( It must be same with your target PC )
+<code>
+ $> remote-ppt <br>
+ copy this URL on your mobile device --> 10.XXX.XXX.XXX:7777
+</code>
 
-4. open web browser on your mobile phone.
+*   set your mobile device WIFI SSID. ( It must be same with your PC )
 
-5. connect to the server.
+*   open your mobile phone web browser on.
+
+*   connect to the server.
 
 License
 -----

@@ -2,7 +2,7 @@
 .git*
 .idea
 Makefile
-node_modules/
+node_modules
 docs/
 examples/
 support/

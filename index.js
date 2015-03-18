@@ -16,7 +16,6 @@ app.get('/', function (req, res) {
 
 /* socket.io event */
 io.on('connection', function (socket) {
-    console.log('user connected !');
     if (process.platform == "win32") {
         socket.on('pushPrev', function (data) {
             cp(__dirname + '/lib/WinSendKeys/WinSendKeys.exe',['-t','2000','-w','[ACTIVE]','{UP}']);
@@ -38,6 +37,7 @@ var os = require('os');
 
 var interfaces = os.networkInterfaces();
 var addresses = [];
+
 for (var k in interfaces) {
     for (var k2 in interfaces[k]) {
         var address = interfaces[k][k2];
