@@ -18,10 +18,12 @@ app.get('/', function (req, res) {
 io.on('connection', function (socket) {
     if (process.platform == "win32") {
         socket.on('pushPrev', function (data) {
-            cp(__dirname + '/lib/WinSendKeys/WinSendKeys.exe',['-t','2000','-w','[ACTIVE]','{UP}']);
+            // keypress Up
+            cp(__dirname +'/lib/gKey/Up.exe');
         })
         socket.on('pushNext', function (data) {
-            cp(__dirname +'/lib/WinSendKeys/WinSendKeys.exe',['-t','2000','-w','[ACTIVE]','{DOWN}']);
+            // keypress Down
+            cp(__dirname +'/lib/gKey/Down.exe');
         })
     } else if (process.platform == "darwin") {
         socket.on('pushPrev', function (data) {
