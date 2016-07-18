@@ -4,7 +4,7 @@ var express = require('express');
 var app = express();
 var server = require('http').Server(app);
 var io = require('socket.io').listen(server);
-var port = Number(process.env.PORT || 7777);
+var port = Number(process.env.PORT || 3000);
 var cp = require('child_process').spawn;
 
 app.use('/css', express.static(__dirname + '/client/css/'));
